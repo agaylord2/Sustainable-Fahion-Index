@@ -1,6 +1,61 @@
 .App {
   text-align: center;
 }
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+html, body { height: 100%; }
+
+h1 { 
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+.button {
+  background-image: -webkit-linear-gradient(top, white, #e6ccff);
+  background-image: -moz-linear-gradient(top,white, #e6ccff);
+  background-image: -ms-linear-gradient(top, white, #e6ccff);
+  background-image: -o-linear-gradient(top,white, #e6ccff);
+  background-image: linear-gradient(to bottom,  white, #e6ccff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+font-family: monospace;
+  color: black;
+  font-size: 10px;
+  padding: 19px;
+  text-decoration: none;
+}
+h5{
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+h3{
+  z-index: -1;
+  color: black;
+  font-size: 40px; 
+  font-family: 'Sacramento', cursive;
+  letter-spacing: -1px;
+}
+.headtop{
+position: relative;
+top: 10px;
+left: 0px;
+
+}
+
+.headbottom{
+  position: relative;
+  top: 10px;
+  left: 0px;
+  }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
